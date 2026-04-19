@@ -19,6 +19,7 @@ namespace Hangman
         public MainWindow()
         {
             InitializeComponent();
+            this.DataContext = new Hangman.ViewModels.MainViewModel();
         }
     }
 }

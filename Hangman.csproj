@@ -8,4 +8,23 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Images\hangman_0.png" />
+    <None Remove="Images\hangman_1.png" />
+    <None Remove="Images\hangman_2.png" />
+    <None Remove="Images\hangman_3.png" />
+    <None Remove="Images\hangman_4.png" />
+    <None Remove="Images\hangman_5.png" />
+    <None Remove="Images\hangman_6.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\hangman_0.png" />
+    <Resource Include="Images\hangman_1.png" />
+    <Resource Include="Images\hangman_2.png" />
+    <Resource Include="Images\hangman_3.png" />
+    <Resource Include="Images\hangman_4.png" />
+    <Resource Include="Images\hangman_5.png" />
+    <Resource Include="Images\hangman_6.png" />
+  </ItemGroup>
 </Project>

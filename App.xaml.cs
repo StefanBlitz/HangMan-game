@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace Hangman
+namespace NotepadClone
 {
     /// <summary>
     /// Interaction logic for App.xaml

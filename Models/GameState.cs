@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Hangman.Models
+﻿namespace Hangman.Models
 {
     public class GameState
     {
+        public string SaveName { get; set; }
         public string UserName { get; set; }
         public int Level { get; set; }
         public int Mistakes { get; set; }
